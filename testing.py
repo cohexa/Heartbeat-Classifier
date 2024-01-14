@@ -39,6 +39,5 @@ if __name__ == "__main__":
 	if pred_class[0]:
 		print("\nNormal heartbeat")
 		print("confidence:", pred[0][1])
-	else:
 		print("\nAbnormal heartbeat")
 		print("confidence:", pred[0][0])
